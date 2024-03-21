@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+*:focus {
+    outline: #FFDA4E dashed 4px;
+}
+
 header {
     background: linear-gradient(180deg, rgb(5, 15, 81) 0%, rgba(5, 15, 810,0) 100%), url('background.jpg');
     background-size: cover;
